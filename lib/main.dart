@@ -11,14 +11,75 @@ class TokuApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:Scaffold(
+      home: HomePage(),
+    );
+  }
+}
+class HomePage extends StatelessWidget {
+  const HomePage({Key? key}) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        backgroundColor: Color(0xffede0d4),
         appBar: AppBar(
           title: Text('Toku'),
-          backgroundColor: Color(0xff9c6644),
+          backgroundColor: Color(0xff7f5539),
+        ),
+        
+        body: Column(
+          children: [
+            Container(
+              padding:EdgeInsets.only(left:20) ,
+              alignment: Alignment.centerLeft,
+              height:65 ,
+              width: double.infinity,
+              color: Color(0xffb08968),
+              child: Text('Numbers',style: TextStyle(
+                color: Colors.white,
+                fontSize: 21,
+              ),),
+              
+            ),
+            Container(
+              padding:EdgeInsets.only(left:20) ,
+              alignment: Alignment.centerLeft,
+              height:65 ,
+              width: double.infinity,
+              color: Color(0xffb08968),
+              child: Text('Family Members',style: TextStyle(
+                color: Colors.white,
+                fontSize: 21,
+              ),),
+              
+            ),
+            Container(
+              padding:EdgeInsets.only(left:20) ,
+              alignment: Alignment.centerLeft,
+              height:65 ,
+              width: double.infinity,
+              color: Color(0xffb08968),
+              child: Text('Colors',style: TextStyle(
+                color: Colors.white,
+                fontSize: 21,
+              ),),
+              
+            ),
+            Container(
+              padding:EdgeInsets.only(left:20) ,
+              alignment: Alignment.centerLeft,
+              height:65 ,
+              width: double.infinity,
+              color: Color(0xffb08968),
+              child: Text('Phrase',style: TextStyle(
+                color: Colors.white,
+                fontSize: 21,
+              ),),
+              
+            )
+          ],
         ),
 
-      )
-    );
+      );
   }
 }
 
