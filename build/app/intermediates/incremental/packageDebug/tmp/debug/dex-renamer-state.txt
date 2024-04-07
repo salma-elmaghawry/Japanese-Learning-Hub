@@ -1,0 +1,4 @@
+#Sun Apr 07 15:00:40 EET 2024
+base.0=O\:\\Flutter\\Projects\\learn_widgets\\toku\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
