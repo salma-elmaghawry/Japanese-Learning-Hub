@@ -349,7 +349,7 @@
             "outputFile": "com.example.toku.app-merged_res-13:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "O:\\Flutter\\Projects\\learn_widgets\\toku\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "O:\\Flutter\\Projects\\learn_widgets\\Japanese Learning Hub\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -954,7 +954,7 @@
                     }
                 },
                 {
-                    "source": "O:\\Flutter\\Projects\\learn_widgets\\toku\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "O:\\Flutter\\Projects\\learn_widgets\\Japanese Learning Hub\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

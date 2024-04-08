@@ -4,7 +4,7 @@
             "outputFile": "com.example.toku.app-mergeDebugResources-11:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "O:\\Flutter\\Projects\\learn_widgets\\toku\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "O:\\Flutter\\Projects\\learn_widgets\\Japanese Learning Hub\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
