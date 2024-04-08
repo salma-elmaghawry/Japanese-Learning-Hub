@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:toku/screens/ColorsPage.dart';
 import 'package:toku/screens/NumbersPage.dart';
+import 'package:toku/screens/FamilyMembersPage.dart';
+import 'package:toku/screens/PhrasesPage.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -33,21 +36,36 @@ class HomePage extends StatelessWidget {
               height: 50,
             ),
             Category(
-              onTap: () {},
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (BuildContext context) {
+                  return FamilyMembersPage();
+                }));
+              },
               text: 'Family Members',
             ),
             const SizedBox(
               height: 50,
             ),
             Category(
-              onTap: () {},
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (BuildContext context) {
+                  return ColorsPage();
+                }));
+              },
               text: 'Colors',
             ),
             const SizedBox(
               height: 50,
             ),
             Category(
-              onTap: () {},
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (BuildContext context) {
+                  return PhrasesPage();
+                }));
+              },
               text: 'Phrases',
             ),
             const SizedBox(

@@ -7,7 +7,15 @@ class NumbersPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+      appBar: AppBar(
+        title: Text('Numbers'),
+        backgroundColor: Color(0xff7f5539),
+      ),
+      body: Container(
+        child: Row(
+          
+        ),
+      ),
     );
   }
 }
