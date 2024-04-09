@@ -1,8 +1,9 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:toku/models/NumberModel.dart';
 
 class NumbersItem extends StatelessWidget {
-  const NumbersItem({Key? key,required this.number}) : super(key: key);
+  const NumbersItem({Key? key, required this.number}) : super(key: key);
   final Number number;
   @override
   Widget build(BuildContext context) {
@@ -20,8 +21,8 @@ class NumbersItem extends StatelessWidget {
                 style: TextStyle(fontSize: 23),
               ),
               //Text(
-                //number.enName,
-                //style: TextStyle(fontSize: 23),
+              //number.enName,
+              //style: TextStyle(fontSize: 23),
               //),
             ],
           ),
@@ -29,15 +30,17 @@ class NumbersItem extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(10),
             child: IconButton(
-              splashColor:Color(0xff7f5539) ,
-            onPressed: (){}, 
-            icon:const Icon(
+                splashColor: Color(0xff7f5539),
+                onPressed: () {
+                  final player = AudioPlayer();
+                  player.play(AssetSource(number.sound));
+                },
+                icon: const Icon(
                   Icons.play_arrow,
                   color: Color(0xff7f5539),
-                  size: 35, )),
+                  size: 35,
+                )),
           )
-          
-          
         ],
       ),
     );
