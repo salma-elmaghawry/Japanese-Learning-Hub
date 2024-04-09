@@ -19,21 +19,25 @@ class NumbersItem extends StatelessWidget {
                 number.jpName,
                 style: TextStyle(fontSize: 23),
               ),
-              Text(
-                number.enName,
-                style: TextStyle(fontSize: 23),
-              ),
+              //Text(
+                //number.enName,
+                //style: TextStyle(fontSize: 23),
+              //),
             ],
           ),
           const Spacer(flex: 1),
           Padding(
-            padding: const EdgeInsets.all(12),
-            child: Icon(
-              Icons.play_arrow,
-              color: Color(0xff7f5539),
-              size: 35,
-            ),
+            padding: const EdgeInsets.all(10),
+            child: IconButton(
+              splashColor:Color(0xff7f5539) ,
+            onPressed: (){}, 
+            icon:const Icon(
+                  Icons.play_arrow,
+                  color: Color(0xff7f5539),
+                  size: 35, )),
           )
+          
+          
         ],
       ),
     );
